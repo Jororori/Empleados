@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.datos input {
+  width: 300px;
+  height: 25px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.datos button {
+  width: 320px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.card {
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.card-header {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.input-group-text {
+  min-width: 110px;
+  font-weight: 500;
+}
+
+.table th {
+  background-color: #212529;
+  color: white;
+}
+
+.nav-tabs .nav-link {
+  font-weight: 600;
+  cursor: pointer;
+}
